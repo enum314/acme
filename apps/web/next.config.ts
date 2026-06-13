@@ -34,12 +34,7 @@ function getFrameAncestorsPolicy(appUrl: string): string {
 const config: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  transpilePackages: [
-    "@acme/components",
-    "@acme/marketing",
-    "@acme/seo",
-  ],
-  allowedDevOrigins: ["local.zhyporium.com"],
+  transpilePackages: ["@acme/components", "@acme/marketing", "@acme/seo"],
   cacheComponents: true,
   experimental: {
     turbopackFileSystemCacheForDev: false,

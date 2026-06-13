@@ -4,9 +4,10 @@ export const siteConfig = {
   name: "Acme",
   company: "Zhyporium",
   email: "hello@zhyporium.com",
-  description: "Acme app with authentication and a member dashboard.",
+  description:
+    "Next.js starter with Google auth and a protected member dashboard.",
   links: {
-    support: "https://zhyporium.com",
+    support: "https://github.com/enum314/acme",
   },
   url: absoluteUrl(""),
 };

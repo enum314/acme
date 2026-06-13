@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import { Particles } from "@acme/components/ui/particles";
 import { AuthView } from "@daveyplate/better-auth-ui";
@@ -90,18 +89,6 @@ export default async function Page({
               <div className="p-6 lg:p-8">
                 <AuthView pathname={pathname} redirectTo={redirectTo} />
               </div>
-            </div>
-
-            <div className="space-y-4 text-center">
-              <p className="text-muted-foreground text-xs">
-                Powered by{" "}
-                <Link
-                  href="https://zhyporium.com"
-                  className="hover:text-foreground underline underline-offset-4 transition-colors"
-                >
-                  Zhyporium
-                </Link>
-              </p>
             </div>
           </div>
         </div>
